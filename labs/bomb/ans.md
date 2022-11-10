@@ -4,7 +4,6 @@
 
 ## phase_1
 
-
 Answer: `Border relations with Canada have never been better.`
 
 ## phase_2
@@ -13,7 +12,7 @@ Answer: `1 2 4 8 16 32`
 
 ## phase_3
 
-第一个数必须在0-6之间，第二个数由第一个数决定
+第一个数必须在0-6之间，第二个数由第一个数决定。原函数是个`switch-case`结构，有多个答案。
 
 Answer: `1 311`
 
