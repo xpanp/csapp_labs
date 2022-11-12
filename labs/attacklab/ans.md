@@ -43,3 +43,16 @@ objdump -d ci3.o > ci3_gcc.s
 ./hex2raw <ci3.txt >ci3_hex.txt
 ./ctarget -qi ci3_hex.txt
 ```
+
+## ci4 
+
+这里`rop4.txt`文件中注释格式不对，导致生成的`rop4_hex.txt`不对，调试了很久。
+
+```shell
+./hex2raw <rop4.txt >rop4_hex.txt
+./rtarget -qi rop4_hex.txt
+```
+
+## ci5
+
+难度过大，需要大量时间，先放一放，继续往下学。
